@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Uf6SSoVFvNkW71ER+HakEt27Jom9LQPycsZgW8me6pPY24XWo1dAwDPcbCoVklVUpAWK7/3ZGOkIvHGZr11vvw==",
+  "dgSpecHash": "037zx7UvQtMc1q/rNGgPyENfejXlGKIsHpuQZQPEytge0hoStsV/Zv5rHlFqrivfy/nzBHXwNjcoezmQ8QGx2w==",
   "success": true,
-  "projectFilePath": "/home/dimonchik/Programs/NET/Pro_ASP.NET_Core_7(8)/SportsApplication/SportsStore/SportsStore.csproj",
+  "projectFilePath": "/home/dimonchik/Programs/NET/SportsApplication/SportsStore/SportsStore.csproj",
   "expectedPackageFiles": [
     "/home/dimonchik/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/home/dimonchik/.nuget/packages/microsoft.bcl.asyncinterfaces/6.0.0/microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",

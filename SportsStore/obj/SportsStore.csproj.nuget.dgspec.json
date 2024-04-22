@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/dimonchik/Programs/NET/Pro_ASP.NET_Core_7(8)/SportsApplication/SportsStore/SportsStore.csproj": {}
+    "/home/dimonchik/Programs/NET/SportsApplication/SportsStore/SportsStore.csproj": {}
   },
   "projects": {
-    "/home/dimonchik/Programs/NET/Pro_ASP.NET_Core_7(8)/SportsApplication/SportsStore/SportsStore.csproj": {
+    "/home/dimonchik/Programs/NET/SportsApplication/SportsStore/SportsStore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/dimonchik/Programs/NET/Pro_ASP.NET_Core_7(8)/SportsApplication/SportsStore/SportsStore.csproj",
+        "projectUniqueName": "/home/dimonchik/Programs/NET/SportsApplication/SportsStore/SportsStore.csproj",
         "projectName": "SportsStore",
-        "projectPath": "/home/dimonchik/Programs/NET/Pro_ASP.NET_Core_7(8)/SportsApplication/SportsStore/SportsStore.csproj",
+        "projectPath": "/home/dimonchik/Programs/NET/SportsApplication/SportsStore/SportsStore.csproj",
         "packagesPath": "/home/dimonchik/.nuget/packages/",
-        "outputPath": "/home/dimonchik/Programs/NET/Pro_ASP.NET_Core_7(8)/SportsApplication/SportsStore/obj/",
+        "outputPath": "/home/dimonchik/Programs/NET/SportsApplication/SportsStore/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/dimonchik/.nuget/NuGet/NuGet.Config"

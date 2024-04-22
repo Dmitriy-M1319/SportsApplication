@@ -9,27 +9,27 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SportsStore
 build_property.RootNamespace = SportsStore
-build_property.ProjectDir = /home/dimonchik/Programs/NET/Pro_ASP.NET_Core_7(8)/SportsApplication/SportsStore/
+build_property.ProjectDir = /home/dimonchik/Programs/NET/SportsApplication/SportsStore/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /home/dimonchik/Programs/NET/Pro_ASP.NET_Core_7(8)/SportsApplication/SportsStore
+build_property.MSBuildProjectDirectory = /home/dimonchik/Programs/NET/SportsApplication/SportsStore
 build_property._RazorSourceGeneratorDebug = 
 
-[/home/dimonchik/Programs/NET/Pro_ASP.NET_Core_7(8)/SportsApplication/SportsStore/Views/Shared/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0luZGV4LmNzaHRtbA==
+[/run/media/dimonchik/BARACHLO/Programs/NET/SportsApplication/SportsStore/Views/Shared/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = SW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/dimonchik/Programs/NET/Pro_ASP.NET_Core_7(8)/SportsApplication/SportsStore/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+[/run/media/dimonchik/BARACHLO/Programs/NET/SportsApplication/SportsStore/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = X0xheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/dimonchik/Programs/NET/Pro_ASP.NET_Core_7(8)/SportsApplication/SportsStore/Views/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+[/run/media/dimonchik/BARACHLO/Programs/NET/SportsApplication/SportsStore/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = X1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/dimonchik/Programs/NET/Pro_ASP.NET_Core_7(8)/SportsApplication/SportsStore/Views/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+[/run/media/dimonchik/BARACHLO/Programs/NET/SportsApplication/SportsStore/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = X1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

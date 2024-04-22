@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/dimonchik/Programs/NET/Pro_ASP.NET_Core_7(8)/SportsSln/SportsStore.Tests/SportsStore.Tests.csproj": {}
+    "/run/media/dimonchik/BARACHLO/Programs/NET/SportsApplication/SportsStore.Tests/SportsStore.Tests.csproj": {}
   },
   "projects": {
-    "/home/dimonchik/Programs/NET/Pro_ASP.NET_Core_7(8)/SportsSln/SportsStore.Tests/SportsStore.Tests.csproj": {
+    "/run/media/dimonchik/BARACHLO/Programs/NET/SportsApplication/SportsStore.Tests/SportsStore.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/dimonchik/Programs/NET/Pro_ASP.NET_Core_7(8)/SportsSln/SportsStore.Tests/SportsStore.Tests.csproj",
+        "projectUniqueName": "/run/media/dimonchik/BARACHLO/Programs/NET/SportsApplication/SportsStore.Tests/SportsStore.Tests.csproj",
         "projectName": "SportsStore.Tests",
-        "projectPath": "/home/dimonchik/Programs/NET/Pro_ASP.NET_Core_7(8)/SportsSln/SportsStore.Tests/SportsStore.Tests.csproj",
+        "projectPath": "/run/media/dimonchik/BARACHLO/Programs/NET/SportsApplication/SportsStore.Tests/SportsStore.Tests.csproj",
         "packagesPath": "/home/dimonchik/.nuget/packages/",
-        "outputPath": "/home/dimonchik/Programs/NET/Pro_ASP.NET_Core_7(8)/SportsSln/SportsStore.Tests/obj/",
+        "outputPath": "/run/media/dimonchik/BARACHLO/Programs/NET/SportsApplication/SportsStore.Tests/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/dimonchik/.nuget/NuGet/NuGet.Config"
@@ -26,8 +26,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/home/dimonchik/Programs/NET/Pro_ASP.NET_Core_7(8)/SportsSln/SportsStore/SportsStore.csproj": {
-                "projectPath": "/home/dimonchik/Programs/NET/Pro_ASP.NET_Core_7(8)/SportsSln/SportsStore/SportsStore.csproj"
+              "/run/media/dimonchik/BARACHLO/Programs/NET/SportsApplication/SportsStore/SportsStore.csproj": {
+                "projectPath": "/run/media/dimonchik/BARACHLO/Programs/NET/SportsApplication/SportsStore/SportsStore.csproj"
               }
             }
           }
@@ -44,7 +44,7 @@
           "dependencies": {
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
-              "version": "[17.6.0, )"
+              "version": "[17.9.0, )"
             },
             "Moq": {
               "target": "Package",
@@ -54,17 +54,17 @@
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[6.0.2, )"
             },
             "xunit": {
               "target": "Package",
-              "version": "[2.4.2, )"
+              "version": "[2.7.1, )"
             },
             "xunit.runner.visualstudio": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[2.4.5, )"
+              "version": "[2.5.8, )"
             }
           },
           "imports": [
@@ -87,14 +87,14 @@
         }
       }
     },
-    "/home/dimonchik/Programs/NET/Pro_ASP.NET_Core_7(8)/SportsSln/SportsStore/SportsStore.csproj": {
+    "/run/media/dimonchik/BARACHLO/Programs/NET/SportsApplication/SportsStore/SportsStore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/dimonchik/Programs/NET/Pro_ASP.NET_Core_7(8)/SportsSln/SportsStore/SportsStore.csproj",
+        "projectUniqueName": "/run/media/dimonchik/BARACHLO/Programs/NET/SportsApplication/SportsStore/SportsStore.csproj",
         "projectName": "SportsStore",
-        "projectPath": "/home/dimonchik/Programs/NET/Pro_ASP.NET_Core_7(8)/SportsSln/SportsStore/SportsStore.csproj",
+        "projectPath": "/run/media/dimonchik/BARACHLO/Programs/NET/SportsApplication/SportsStore/SportsStore.csproj",
         "packagesPath": "/home/dimonchik/.nuget/packages/",
-        "outputPath": "/home/dimonchik/Programs/NET/Pro_ASP.NET_Core_7(8)/SportsSln/SportsStore/obj/",
+        "outputPath": "/run/media/dimonchik/BARACHLO/Programs/NET/SportsApplication/SportsStore/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/dimonchik/.nuget/NuGet/NuGet.Config"

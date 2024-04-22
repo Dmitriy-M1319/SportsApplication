@@ -8,10 +8,10 @@ namespace SportsStore.Tests;
 public class HomeControllerTests
 {
     [Fact]
-    public void Can_Use_Repository()
+    public void CanUseRepository()
     {
         Mock<IStoreRepository> mock = new Mock<IStoreRepository>();
-        mock.Setup(m => m.Products).Returns((new Product[]
+        _ = mock.Setup(m => m.Products).Returns((new Product[]
         {
             new Product
             {
@@ -29,7 +29,7 @@ public class HomeControllerTests
         IEnumerable<Product>? result = (controller.Index() as ViewResult)?.ViewData.Model as IEnumerable<Product>;
         Product[] prodArray = result?.ToArray() ?? Array.Empty<Product>();
 
-        Assert.True(prodArray.Length == 2); 
+        Assert.Equal(2, prodArray.Length); 
         Assert.Equal("P1", prodArray[0].Name); 
         Assert.Equal("P2", prodArray[1].Name);
     }
