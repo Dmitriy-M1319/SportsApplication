@@ -10,11 +10,10 @@ builder.Services.AddDbContext<StoreDbContext>(options => {
 builder.Services.AddScoped<IStoreRepository, EFStoreRepository>();
 var app = builder.Build();
 
-//app.MapGet("/", () => "Hello World!");
 
 app.UseStaticFiles();
 app.MapDefaultControllerRoute();
 
-SeedData.EnsurePopulated(app);
+//SeedData.EnsurePopulated(app);
 
 app.Run();
