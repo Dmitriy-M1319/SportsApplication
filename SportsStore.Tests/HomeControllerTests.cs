@@ -24,7 +24,7 @@ public class HomeControllerTests
         }).AsQueryable<Product>());
 
         HomeController controller = new HomeController(mock.Object);
-        ProductListViewModel result = controller.Index()?.ViewData.Model as ProductListViewModel ?? new();
+        ProductListViewModel result = controller.Index(null)?.ViewData.Model as ProductListViewModel ?? new();
         Product[] prodArray = result.Products.ToArray();
         Assert.Equal("P1", prodArray[0].Name);
         Assert.Equal("P2", prodArray[1].Name);
@@ -60,7 +60,7 @@ public class HomeControllerTests
         HomeController controller = new HomeController(mock.Object);
         controller.PageSize = 3;
 
-        ProductListViewModel result = controller.Index(2)?.ViewData.Model as ProductListViewModel ?? new();
+        ProductListViewModel result = controller.Index(null, 2)?.ViewData.Model as ProductListViewModel ?? new();
         Product[] prodArray = result.Products.ToArray();
         Assert.Equal(2, prodArray.Length);
         Assert.Equal("P4", prodArray[0].Name);
