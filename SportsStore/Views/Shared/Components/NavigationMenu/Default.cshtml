@@ -1,0 +1,17 @@
+@model IEnumerable<string> 
+
+<div class="d-grid gap-2">
+<!-- asp-action - куда перейти
+asp-controller - в каком контроллере хранится
+asp-route-<value> - какое значение передать для value в метод из asp-action-->
+    <a class="btn btn-outline-secondary" asp-action="Index" asp-controller="Home" asp-route-category="">
+        Home
+    </a>
+    @foreach (var category in Model)
+    {
+        <a class="btn @(category == ViewBag.SelectedCategory ? "btn-primary" : "btn-outline-secondary")" 
+           asp-action="Index" asp-controller="Home" asp-route-category="@category" asp-route-productPage="1">
+            @category
+        </a>
+    }
+</div>
