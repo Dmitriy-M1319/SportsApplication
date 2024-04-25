@@ -15,6 +15,7 @@ builder.Services.AddDbContext<StoreDbContext>(options => {
     options.UseSqlite(builder.Configuration["ConnectionStrings:SportsStoreConnection"]);
 });
 builder.Services.AddScoped<IStoreRepository, EFStoreRepository>();
+builder.Services.AddScoped<IOrderRepository, EFOrderRepository>();
 var app = builder.Build();
 
 
