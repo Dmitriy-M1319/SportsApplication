@@ -16,6 +16,7 @@ builder.Services.AddDbContext<StoreDbContext>(options => {
 });
 builder.Services.AddScoped<IStoreRepository, EFStoreRepository>();
 builder.Services.AddScoped<IOrderRepository, EFOrderRepository>();
+builder.Services.AddServerSideBlazor();
 var app = builder.Build();
 
 
@@ -28,6 +29,8 @@ app.MapControllerRoute("category", "{category}", new { Controller = "Home", acti
 app.MapControllerRoute("pagination", "Products/Page{productPage}", new { Controller = "Home", action = "Index", productPage = 1 });
 
 app.MapRazorPages();
+app.MapBlazorHub();
+app.MapFallbackToPage("/admin/{*catchall}", "/Admin/Index");
 
 app.MapDefaultControllerRoute();
 
