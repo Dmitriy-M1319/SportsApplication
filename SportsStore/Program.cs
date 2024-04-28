@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using SportsStore.Models;
@@ -14,6 +15,11 @@ builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 builder.Services.AddDbContext<StoreDbContext>(options => {
     options.UseSqlite(builder.Configuration["ConnectionStrings:SportsStoreConnection"]);
 });
+builder.Services.AddDbContext<AppIdentityDbContext>(options =>
+{
+    options.UseSqlite(builder.Configuration["ConnectionStrings:IdentityConnection"]);
+});
+builder.Services.AddIdentity<IdentityUser, IdentityRole>().AddEntityFrameworkStores<AppIdentityDbContext>();
 builder.Services.AddScoped<IStoreRepository, EFStoreRepository>();
 builder.Services.AddScoped<IOrderRepository, EFOrderRepository>();
 builder.Services.AddServerSideBlazor();
@@ -22,6 +28,9 @@ var app = builder.Build();
 
 app.UseStaticFiles();
 app.UseSession();
+
+app.UseAuthentication();
+app.UseAuthentication();
 
 app.MapControllerRoute("catpage", "{category}/Page{productPage:int}", new { Controller = "Home", action = "Index" });
 app.MapControllerRoute("page", "Page{productPage:int}", new { Controller = "Home", action = "Index", productPage = 1 });
@@ -35,5 +44,6 @@ app.MapFallbackToPage("/admin/{*catchall}", "/Admin/Index");
 app.MapDefaultControllerRoute();
 
 //SeedData.EnsurePopulated(app);
+IdentitySeedData.EnsurePopulated(app);
 
 app.Run();
